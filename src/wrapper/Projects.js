@@ -14,7 +14,7 @@ min-height: 100vh;
     justify-content: space-between;
     flex-wrap: wrap;
     .card{
-        border: 2px solid blue;
+        /* border: 2px solid blue; */
         padding: 10px;
         margin: 50px 0px;
         min-width: 250px;
