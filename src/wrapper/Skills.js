@@ -26,6 +26,10 @@ min-height: 100vh;
             /* border-radius: 50%; */
             object-fit: contain;
             margin: 10px;
+            transition: transform 0.2s ease-in-out;
+            &:hover{
+                transform: scale(2,2);
+            }
         }
     }
 }
