@@ -16,7 +16,7 @@ function Projects() {
           <div className="card-body">
             <h5 className="card-title">Arcade Game using JavaScript</h5>
             <p className="card-text">Created a fun fighting game using javaScript</p>
-            <a href="#" className="btn btn-primary">View</a>
+            <a href="https://github.com/JATINSHARMA9714/fighting-game" target='_blank' className="btn btn-primary">View</a>
           </div>
         </div>
         <div className="card">
@@ -24,7 +24,7 @@ function Projects() {
           <div className="card-body">
             <h5 className="card-title">News Monkey</h5>
             <p className="card-text">Created a news app which uses api to fetch top headlines.</p>
-            <a href="#" className="btn btn-primary">View</a>
+            <a href="https://github.com/JATINSHARMA9714/NewsMonkey-Project" target='_blank'className="btn btn-primary">View</a>
           </div>
         </div>
         <div className="card">

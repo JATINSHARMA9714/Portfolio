@@ -21,6 +21,7 @@ min-height: 100vh;
         width: 350px;
         background-color: transparent;
         color: white;
+        transition: transform 0.2s ease-in-out;
         a.btn.btn-primary{
             width: 20vw;
             background-color: transparent;
@@ -28,6 +29,9 @@ min-height: 100vh;
             &:hover{
                 background: linear-gradient(to right, #ee0979, #ff6a00);
             }
+        }
+        &:hover{
+            transform: scale(1.2,1.2);
         }
     }
 }
