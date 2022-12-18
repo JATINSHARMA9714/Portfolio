@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from './components/Footer';
+import Intro from './components/Intro';
+import Media from './components/Media';
+import Navbar from './components/Navbar';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+import { useState } from 'react';
 
 function App() {
+  const [mode,setMode] = useState(false)
+  function changeModeHandler(){
+    if(mode){
+      console.log(document.body.style);
+      document.body.style.backgroundImage='linear-gradient(#0F2027,#203A43)';
+      setMode(!mode)
+    }
+    else{
+      document.body.style.backgroundImage='linear-gradient(to left, #12c2e9ed, #c471ed, #f64f59)'
+      setMode(!mode)
+    }
+
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Navbar changeMode={changeModeHandler}/>
+    <Intro/>
+    <Skills/>
+    <Projects/>
+    <Media/>
+    <Footer/>
+    </>
   );
 }
 
