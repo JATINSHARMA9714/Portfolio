@@ -22,8 +22,10 @@ justify-content: space-around;
     i{
         font-size: 100px;
         color: white;
+        transition: all 0.1s ease-in-out;
     }
     i.linked{
+        
         &:hover{
             background: linear-gradient(
             to right, #0077b5, #0077b5);
@@ -42,7 +44,7 @@ justify-content: space-around;
     }
     i.github{
         &:hover{
-            color: black;
+            color: #252525 !important;
         }
     }
 }

@@ -14,7 +14,7 @@ justify-content: space-around;
             width: 500px;
             span{
                 font-size: 3rem;
-                color: #3D5A80;
+                color: greenyellow;
   
             }
     }

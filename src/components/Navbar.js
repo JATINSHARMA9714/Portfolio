@@ -14,7 +14,7 @@ export default function Navbar() {
       document.body.style.backgroundImage = 'linear-gradient(to left, #12c2e9ed, #c471ed, #f64f59)'
       main.style.color = 'black'
       text.forEach(element => {
-        element.style.color = '#3D5A80'
+        element.style.color = 'greenyellow'
       })
       intro.style.backgroundImage = 'linear-gradient(to left, #12c2e9ed, #c471ed, #f64f59)'
       navbar.classList.remove('dark')
